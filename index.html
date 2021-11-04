@@ -1,61 +1,225 @@
-<html>
-    <body style="background: rgb(238, 237, 237);">
-    <h1 style="color:blue;font-size:50px;text-align: center;">
-        Vee's Portfolio
-    </h1>
-    <table>
-        <tr>
-            <th><img src="vee.jpg" width="379" height="505" /> </th>
-            <th><h2 style="color:blue;font-size:20px;text-align: left;">
-                Professional Summary:
-            </h2> 
-            <p style="text-align: left;font-weight: normal;">
-                A highly motivated Mainframe Specialist with 14+ years of experience in Application development, Database Administration, Infrastructure Engineering and Operations. 
-                A continuous learner who is passionate and committed to the organizational growth and focused on delivering exceptional results.
-            </p>
-            <h2 style="color:blue;font-size:20px;text-align: left;">
-                Education:
-            </h2> 
-            <ul style="text-align: left;font-weight: normal;">
-                <li>Master of Science in Computer Science, Colorado Technical University.</li>
-                <li>Bachelor of Engineering, Electronics & Communication, Visveswaraya Technological University.</li>
-            </ul>
-            <h2 style="color:blue;font-size:20px;text-align: left;">
-                Technical Skills:
-            </h2> 
-            <p style="text-align: left;font-weight: normal;">
-                <Strong>Operating Systems: </Strong>
-                z/OS 1.4 – 2.3, Linux, Windows <br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Vee's Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  * {
+  box-sizing:border-box;
+}
 
-                <Strong>Databases: </Strong>
-                Db2 on z/OS V7-V12, DB2 LUW V8-9, IMS DB, VSAM, Oracle<br>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-                <Strong>Programming Languages: </Strong>
-                COBOL, JCL, REXX, CLIST, PLI, Assembler, XML, Java, C, C++, HTML, CSS, NodeJS <br>
+.container {
+  padding: 64px;
+}
 
-                <Strong>Middleware: </Strong>
-                MQ, CICS <br>
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
 
-                <Strong>Replication Products: </Strong>
-                QRep, SQLREP, Golden gate on z <br>
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
 
-                <Strong>Monitoring Products:</Strong>
-                Splunk, Dynatrace, Omegamon, Apptune, Tivoli Enterprise Portal, IZSME <br>
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+.column-45 {
+  float: left;
+  width: 66.6666%;
+  padding: 20px;
+}
+.column-75 {
+  float: left;
+  width: 33.3333%;
+  padding: 20px;
+}
 
-                <Strong>Other Technologies:</Strong>
-                IBM Db2 Analytics Accelerator, Docker, Kubernetes, ZOWE, zOSMF <br>
+.large-font {
+  font-size: 48px;
+}
 
-                <Strong>Other Tools:</Strong>
-                Topaz, Data Studio, QMF for Workstation/WebSphere, BMC Utilities, IBM Utilities, Xpediter, Control M, Log Master, Service Now, Manage Now <br>
-             </p>
-             <h2 style="color:blue;font-size:20px;text-align: left;">
-                Hobbies:
-            </h2> 
-            <p style="text-align: left;font-weight: normal;">
-                I love traveling, nature & wildlife Photography, hiking, biking, and more.
-            </p>
-            </th>
-        </tr>
-    </table>
-</body>    
+.xlarge-font {
+  font-size: 64px
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #04AA6D;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+  </style>
+</head>
+<body>
+
+<div class="p-5 bg-primary text-white text-center">
+  <h1>Veena Puttalingaiah </h1>
+  <p>Dream as if you’ll live forever. Live as if you’ll die today. - James Dean</p>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Bio.html">Bio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">Projects</a>
+      </li>
+            
+    </ul>
+   
+  </div>
+</nav>
+
+<!-- The About Section -->
+<section class="about-section" id="about">
+<div class="container">
+    <div class="row">
+      <div class="column-66">
+        <h1 class="xlarge-font"><b>About Veena</b></h1>
+        <h1 class="medium-font" style="color:MediumSeaGreen;"><b>Software & Infrastructure Engineer</b></h1>
+        <p> I love programming and have used my skills to create new products and simplify processes through automation. I have built web portals at my current job to brand and market products, and in turn increase customer engagement and inspire them.</p>
+        <h2>
+            <a href="https://www.linkedin.com/in/veena-puttalingaiah-19115216"><i class="bi bi-linkedin"></i></a>
+            <a href="mailto:veenabp@gmail.com"><i class="bi bi-envelope"></i></a>
+            <a href="https://akankshvee.github.io/"><i class="bi bi-github"></i></a>
+        </h2>
+      </div>
+      <div class="column-33">
+          <img src="vee.jpg" width="250" height="330">
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Bio Section -->
+  <div class="container" style="background-color:#f1f1f1">
+    <div class="row">
+    <div class="column-45">
+    <div class="embed-responsive embed-responsive-21by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IVNm-AQGroc?rel=0" style="width: 40%; height: 40%; position: absolute;" allowfullscreen>
+        </iframe> 
+    </div>
+    </div>
+      <div class="column-75">
+        <h1 class="xlarge-font"><b>Bio</b></h1>
+        <p>I am a highly motivated Mainframe Specialist with 14+ years of experience in Application development, Database Administration, Infrastructure Engineering and Operations. A continuous learner who is passionate and committed to the organizational growth and focused on delivering exceptional results. </p>
+        <a href="Bio.html"><button class="button" style="background-color:red"> Read More </button></a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- The Projects Section -->
+  <section class="projects-section" id="projects">
+  <div class="container">
+    <div class="row">
+      <div>
+        <h1 class="xlarge-font"><b>Projects</b></h1><br>
+            <div class="row row-cols-1 row-cols-md-4 mb-4 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                        <div class="card-header py-3 text-white bg-primary border-primary">
+                        <h4 class="my-0 fw-normal">Bouncing Ball</h4>
+                      </div>
+                      <div class="card-body">
+                        <p>The ball bounces and changes direction at the boundaries.  </p>
+                        <a href="https://github.com/Akankshvee/BounceBall"><button type="button" class="w-100 btn btn-lg btn-outline-primary">Git Repo</button></a>
+                        <p></p>
+                        <a href="https://akankshvee.github.io/BounceBall/"><button type="button" class="w-100 btn btn-lg btn-outline-primary">Live Project</button></a>
+                      </div>
+                    </div>
+                  </div>
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                    <div class="card-header py-3 text-white bg-primary border-primary">
+                    <h4 class="my-0 fw-normal">PacMan Exercise</h4>
+                  </div>
+                  <div class="card-body">
+                    <p>PacMan moves from one edge of the page to another. </p>
+                    <a href="https://github.com/Akankshvee/PacMan"><button type="button" class="w-100 btn btn-lg btn-outline-primary">Git Repo</button></a>
+                        <p></p>
+                        <a href="https://akankshvee.github.io/PacMan/"><button type="button" class="w-100 btn btn-lg btn-outline-primary">Live Project</button></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                    <div class="card-header py-3 text-white bg-primary border-primary">
+                    <h4 class="my-0 fw-normal">Eye Exercise</h4>
+                  </div>
+                  <div class="card-body">
+                    <p>Eye exercise shows eye balls moving with the mouse. </p>
+                    <a href="https://github.com/Akankshvee/EyeExercise"><button type="button" class="w-100 btn btn-lg btn-outline-primary">Git Repo</button></a>
+                        <p></p>
+                        <a href="https://akankshvee.github.io/EyeExercise/"><button type="button" class="w-100 btn btn-lg btn-outline-primary">Live Project</button></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                  <div class="card-header py-3 text-white bg-primary border-primary">
+                    <h4 class="my-0 fw-normal">Bus Tracker</h4>
+                  </div>
+                  <div class="card-body">
+                    <p>Tracks buses in real time for a given location.</p>
+                    <a href="https://github.com/Akankshvee/BounceBall"><button type="button" class="w-100 btn btn-lg btn-outline-primary">Git Repo</button></a>
+                        <p></p>
+                        <a href="https://akankshvee.github.io/BounceBall/"><button type="button" class="w-100 btn btn-lg btn-outline-primary">Live Project</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="mt-5 p-4 bg-dark text-white text-center">
+ 
+</div>
+
+</body>
 </html>
