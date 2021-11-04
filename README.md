@@ -16,12 +16,13 @@ Steps to create your first github page.
 7. Add a photo file with your image for your portfolio. Let's name it "photofile"
 
 8. Create a new file and name it as "index.html" and below contents. Update "username" with your git hub username and save the file.
-
+```
 <html>
     <h1>
         username's Portfolio
     </h1>
     <img src="photofile.jpg" /> 
 </html>
+```
 9. Drag and drop the two files - photofile and index.html to the browser page you have open in step 4. Click on "commit" once you see both the file names listed on the page.
 10. Congratulations, you have successfully created your first web page - https://username.github.io (Note - replace username with the git hub username)
